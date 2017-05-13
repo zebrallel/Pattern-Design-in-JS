@@ -23,4 +23,4 @@ person1.name = 'Jack';
 
 var person2 = Person.getInstance();
 
-console.log(person2.name);
+console.log(person2.name); //Jack
