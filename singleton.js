@@ -13,11 +13,7 @@ Person.getInstance = function(){
     var instance;
 
     return function(){
-        if(instance){
-            return instance;
-        }else{
-            return instance = new Person();
-        }
+        return instance || (instance = new Person());
     }
 }();
 
