@@ -3,7 +3,7 @@
  * @author: xuejian.xu
  * @date: 2017/5/13.
  */
-    
+
 
 class Emmiter {
     constructor(){
