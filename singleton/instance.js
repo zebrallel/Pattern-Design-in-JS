@@ -1,9 +1,3 @@
-/**
- * @fileOverView: 单例模式
- * @author: xuejian.xu
- * @date: 2017/5/13.
- */
-
 function Person(){}
 
 /**
@@ -17,10 +11,4 @@ Person.getInstance = function(){
     }
 }();
 
-var person1 = Person.getInstance();
-
-person1.name = 'Jack';
-
-var person2 = Person.getInstance();
-
-console.log(person2.name); //Jack
+module.exports = Person.getInstance();
